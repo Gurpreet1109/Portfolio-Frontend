@@ -1,0 +1,18 @@
+.myProjectsGrid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: start;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 32px;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+@media (max-width: 555px) {
+  .myProjectsGrid {
+    grid-template-columns: 1fr;
+    padding: 14px;
+  }
+}

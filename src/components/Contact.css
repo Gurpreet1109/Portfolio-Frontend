@@ -1,0 +1,12 @@
+.myContactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 750px) {
+  .myContactGrid {
+    grid-template-columns: 1fr; /* remove 2fr 1fr */
+  }
+}
