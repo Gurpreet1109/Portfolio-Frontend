@@ -42,6 +42,7 @@ const education = [
 
 const certifications = [
   { name: 'Advanced C++', provider: 'Udemy', icon: 'bi-patch-check-fill', color: '#fbbf24' },
+  { name: 'MERN Stack', provider: 'Ducat', icon: 'bi-patch-check-fill', color: '#d6c69c' },
 ];
 
 export default function Education() {
