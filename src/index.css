@@ -161,3 +161,20 @@ section { position: relative; z-index: 1; }
   border-color: rgba(0,212,170,0.25);
   color: var(--primary);
 }
+
+[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg2: #ffffff;
+  --surface: #ffffff;
+  --surface2: #f1f5f9;
+  --border: rgba(0,0,0,0.08);
+  --border2: rgba(0,0,0,0.12);
+
+  --primary: #00a882;
+  --primary-dim: rgba(0,168,130,0.12);
+  --primary-glow: rgba(0,168,130,0.2);
+
+  --text: #0f172a;
+  --muted: #64748b;
+  --muted2: #475569;
+}
